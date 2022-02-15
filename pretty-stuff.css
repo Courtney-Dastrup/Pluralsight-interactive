@@ -1,0 +1,45 @@
+html, body, title, h1, h2, h3, nav, ol, ul, li, a, p {
+    margin: 0;
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: #050769 url(Images/blog-background.png) top center repeat-y;color: #ffffff;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+h3 {
+    margin: 0 15px 15px 15px;
+    font-size: 20px;
+}
+a {
+    color: #ab82f7;
+}
+.nav a {
+    text-decoration: none;
+    color: #050769;
+    display: inline;
+    padding: 20px 10px 20px 10px;
+    
+    font-size: 20px;
+}
+.nav {
+    text-align: center;
+    border: 20px solid #a9aace;
+    background-color: #a9aace;
+}
+li {
+    padding: 3px;
+}
